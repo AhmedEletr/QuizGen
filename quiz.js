@@ -4,8 +4,7 @@ import { stdin as input, stdout as output } from "node:process";
 import fs from "node:fs/promises";
 
 // Embedded Groq API key
-const GROQ_API_KEY =
-  process.env.GROQ_API_KEY;
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
 
 const groq = new Groq({ apiKey: GROQ_API_KEY });
 
