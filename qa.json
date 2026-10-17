@@ -1,0 +1,128 @@
+{
+  "quiz_title": "Basic AI Fundamentals Quiz",
+  "topic": "Basic Ai Fundemntals",
+  "difficulty": "medium",
+  "language": "en",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of supervised learning?",
+      "options": {
+        "A": "Predict labels from input data sets",
+        "B": "Cluster similar data points together",
+        "C": "Generate new data samples artificially",
+        "D": "Optimize reward signals for agents"
+      },
+      "correct_answer": "A",
+      "explanation": "Supervised learning maps inputs to known outputs."
+    },
+    {
+      "id": 2,
+      "question": "Which term describes a model's ability to generalize to unseen data?",
+      "options": {
+        "A": "Overfitting to training set",
+        "B": "Underfitting of training data",
+        "C": "Bias-variance tradeoff balance",
+        "D": "High variance in predictions"
+      },
+      "correct_answer": "C",
+      "explanation": "Generalization reflects a good bias‑variance balance."
+    },
+    {
+      "id": 3,
+      "question": "In reinforcement learning, what does the 'policy' represent?",
+      "options": {
+        "A": "A mapping from states to actions",
+        "B": "A reward function for each step",
+        "C": "A value estimate of future returns",
+        "D": "A model of the environment dynamics"
+      },
+      "correct_answer": "A",
+      "explanation": "A policy selects actions based on states."
+    },
+    {
+      "id": 4,
+      "question": "Which architecture is most suited for sequential data like text?",
+      "options": {
+        "A": "Convolutional Neural Network",
+        "B": "Recurrent Neural Network",
+        "C": "Generative Adversarial Network",
+        "D": "Support Vector Machine"
+      },
+      "correct_answer": "B",
+      "explanation": "RNNs process data in temporal order."
+    },
+    {
+      "id": 5,
+      "question": "What does the term 'epoch' refer to in model training?",
+      "options": {
+        "A": "One complete pass through the dataset",
+        "B": "A single weight update step",
+        "C": "The learning rate schedule step",
+        "D": "A validation metric calculation"
+      },
+      "correct_answer": "A",
+      "explanation": "An epoch processes all training samples once."
+    },
+    {
+      "id": 6,
+      "question": "Which loss function is commonly used for binary classification?",
+      "options": {
+        "A": "Mean Squared Error (MSE)",
+        "B": "Cross‑Entropy (Logistic) Loss",
+        "C": "Huber Loss for outliers",
+        "D": "Kullback‑Leibler Divergence"
+      },
+      "correct_answer": "B",
+      "explanation": "Binary cross‑entropy measures classification error."
+    },
+    {
+      "id": 7,
+      "question": "What is the main advantage of using dropout during training?",
+      "options": {
+        "A": "Accelerates inference speed",
+        "B": "Reduces model size dramatically",
+        "C": "Prevents over‑fitting by random deactivation",
+        "D": "Ensures deterministic outputs"
+      },
+      "correct_answer": "C",
+      "explanation": "Dropout randomly disables neurons to improve robustness."
+    },
+    {
+      "id": 8,
+      "question": "Which metric best evaluates imbalanced classification performance?",
+      "options": {
+        "A": "Overall accuracy percentage",
+        "B": "Precision‑Recall AUC score",
+        "C": "Mean Absolute Error value",
+        "D": "Root Mean Squared Error"
+      },
+      "correct_answer": "B",
+      "explanation": "PR‑AUC focuses on minority class detection."
+    },
+    {
+      "id": 9,
+      "question": "In a confusion matrix, what does a false negative indicate?",
+      "options": {
+        "A": "Correctly predicted positive case",
+        "B": "Incorrectly predicted positive case",
+        "C": "Correctly predicted negative case",
+        "D": "Incorrectly predicted negative case"
+      },
+      "correct_answer": "D",
+      "explanation": "A false negative misses a positive instance."
+    },
+    {
+      "id": 10,
+      "question": "Which technique reduces dimensionality while preserving variance?",
+      "options": {
+        "A": "Principal Component Analysis (PCA)",
+        "B": "K‑Nearest Neighbors (KNN)",
+        "C": "Random Forest feature bagging",
+        "D": "One‑Hot Encoding of categories"
+      },
+      "correct_answer": "A",
+      "explanation": "PCA projects data onto principal components."
+    }
+  ]
+}
